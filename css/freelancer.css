@@ -100,6 +100,15 @@ section.success {
     .scroll-top .btn:focus {
       outline: none; }
 
+.img-profile {
+  border-radius: 50%;
+  height: 300px;
+  object-fit: cover; }
+
+.img-profile:hover {
+  opacity: .8;
+  transition: all ease-in .5s; }
+
 #mainNav {
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 700;
