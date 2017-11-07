@@ -122,3 +122,10 @@ section.success {
 .img-profile:hover {
   transform: scale(1.1); 
 }
+
+.btn-up {
+  position: relative;
+  top: -6px;
+  left: 0;
+  margin-right: 10px;
+}
