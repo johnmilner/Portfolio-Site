@@ -8,7 +8,7 @@ body {
   overflow-x: hidden; }
 
 p {
-  font-size: 20px; }
+  font-size: 16px; }
 
 p.small {
   font-size: 16px; }
@@ -27,8 +27,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: 700;
+  font-family: 'Ubuntu', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   text-transform: uppercase; }
 
 hr.star-light,
@@ -68,7 +67,7 @@ hr.star-primary:after {
   margin: 0 auto; }
 
 section {
-  padding: 100px 0; }
+  padding: 50px 0; }
   section h2 {
     font-size: 3em;
     margin: 0; }
@@ -101,16 +100,17 @@ section.success {
       outline: none; }
 
 .img-profile {
+  border: white 15px solid;
   border-radius: 50%;
   height: 300px;
-  object-fit: fit; }
+  object-fit: fit;
+  transition: all .2s ease-in-out; }
 
 .img-profile:hover {
-  opacity: .8;
-  transition: all ease-in .5s; }
+  transform: scale(1.1); }
 
 #mainNav {
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Ubuntu', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 700;
   text-transform: uppercase;
   border: none;
@@ -118,6 +118,7 @@ section.success {
   #mainNav a:focus {
     outline: none; }
   #mainNav .navbar-brand {
+    font-family: 'Ubuntu', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 1.1rem;
     color: white; }
     #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
@@ -125,6 +126,7 @@ section.success {
   #mainNav .navbar-nav {
     letter-spacing: 1px; }
     #mainNav .navbar-nav li.nav-item a.nav-link {
+      font-size: 1.1rem;
       color: white; }
       #mainNav .navbar-nav li.nav-item a.nav-link:hover {
         color: #18BC9C;
@@ -175,13 +177,15 @@ header.masthead {
   background: #18BC9C; }
   header.masthead img {
     display: block;
-    margin: 0 auto 20px; }
+    margin: -30px auto 20px; }
   header.masthead .intro-text .name {
-    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Lobster', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 2em;
-    font-weight: 700;
+    /*      font-weight: 900;
+*/
     display: block;
-    text-transform: uppercase; }
+    /*      text-transform: uppercase;
+*/ }
   header.masthead .intro-text .skills {
     font-size: 1.25em;
     font-weight: 300; }
@@ -189,7 +193,7 @@ header.masthead {
 @media (min-width: 768px) {
   header.masthead {
     padding-top: 200px;
-    padding-bottom: 100px; }
+    padding-bottom: 75px; }
     header.masthead .intro-text .name {
       font-size: 4.75em; }
     header.masthead .intro-text .skills {
