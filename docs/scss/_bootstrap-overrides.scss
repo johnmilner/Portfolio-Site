@@ -10,9 +10,9 @@
   &:active,
   &:focus,
   &:hover {
-    color: $theme-success;
+    color: rgb(36,36,34);
     border: solid 2px white;
-    background: white;
+    background: transparent;
   }
 }
 
@@ -35,6 +35,7 @@
   text-align: center;
   border: 2px solid white;
   border-radius: 100%;
+  background: transparent;
 }
 .btn.active,
 .btn:active,

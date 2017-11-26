@@ -1,16 +1,29 @@
 // Styling for the masthead
-header.masthead {
-  padding-top: 100px;
+header.masthead, section.success{
+  padding-top: 50px;
   padding-bottom: 50px;
-
   text-align: center;
-
   color: white;
-  background: $theme-success;
+  background: transparent;
+
+
+  // //
+  // font-family: "Courier New", monospaced;
+  //   font-size: 15px;
+  //   background: linear-gradient(238deg, #fd8800, #fd008f, #9700fd, #003dfd, #05c7e6, #4bd58d);
+  //   background-size: 1200% 1200%;
+  //   -webkit-animation: dboxRainbow 30s ease infinite;
+  //   -moz-animation: dboxRainbow 30s ease infinite;
+  //   -o-animation: dboxRainbow 30s ease infinite;
+  //   animation: dboxRainbow 30s ease infinite;
+
+  //   -webkit-font-smoothing: subpixel-antialiased;
+  // //
+
   img {
     display: block;
 
-    margin: -30px auto 20px;
+    margin: -70px auto 20px;
   }
   .intro-text {
     .name {
@@ -31,7 +44,7 @@ header.masthead {
 @media(min-width:768px) {
   header.masthead {
     padding-top: 200px;
-    padding-bottom: 100px;
+    // padding-bottom: 100px;
     .intro-text {
       .name {
         font-size: 4.75em;
@@ -42,3 +55,42 @@ header.masthead {
     }
   }
 }
+
+@-webkit-keyframes dboxRainbow {
+      0%{background-position:0% 50%}
+      50%{background-position:100% 50%}
+      100%{background-position:0% 50%}
+  }
+  @-moz-keyframes dboxRainbow {
+      0%{background-position:0% 50%}
+      50%{background-position:100% 50%}
+      100%{background-position:0% 50%}
+  }
+  @-o-keyframes dboxRainbow {
+      0%{background-position:0% 50%}
+      50%{background-position:100% 50%}
+      100%{background-position:0% 50%}
+  }
+  @keyframes dboxRainbow {
+      0%{background-position:0% 50%}
+      50%{background-position:100% 50%}
+      100%{background-position:0% 50%}
+  }
+
+  body {
+    padding-top: 50px;
+    padding-bottom: 0;
+      //
+    font-family: "Courier New", monospaced;
+    font-size: 15px;
+    background: linear-gradient(238deg, #fd8800, #fd008f, #9700fd, #003dfd, #05c7e6, #4bd58d);
+    background-size: 1200% 1200%;
+    -webkit-animation: dboxRainbow 30s ease infinite;
+    -moz-animation: dboxRainbow 30s ease infinite;
+    -o-animation: dboxRainbow 30s ease infinite;
+    animation: dboxRainbow 30s ease infinite;
+
+    -webkit-font-smoothing: subpixel-antialiased;
+  //
+  }
+
