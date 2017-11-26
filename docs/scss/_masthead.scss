@@ -1,7 +1,7 @@
 // Styling for the masthead
 header.masthead, section.success{
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 5px;
+  padding-bottom: -20px;
   text-align: center;
   color: white;
   background: transparent;
@@ -22,19 +22,19 @@ header.masthead, section.success{
 
   img {
     display: block;
-
-    margin: -70px auto 20px;
+    margin: -90px auto 20px;
   }
+
   .intro-text {
     .name {
-      font-family: 'Lobster', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-      font-size: 2em;
-/*      font-weight: 900;
-*/
+      font-family: 'Work Sans', sans-serif;
+      font-size: .5em;
+      font-weight: 100;
+
       display: block;
-      padding-top: 30px;
-/*      text-transform: uppercase;
-*/    }
+      padding-top: 45px;
+      text-transform: uppercase;
+     }
     .skills {
       font-size: 1.25em;
       font-weight: 300;
@@ -83,13 +83,12 @@ header.masthead, section.success{
       //
     font-family: "Courier New", monospaced;
     font-size: 15px;
-    background: linear-gradient(238deg, #fd8800, #fd008f, #9700fd, #003dfd, #05c7e6, #4bd58d);
+    background: linear-gradient(238deg, #fd8800, #fd008f, #9700fd, #0082c8, #05c7e6, #4bd58d);
     background-size: 1200% 1200%;
     -webkit-animation: dboxRainbow 30s ease infinite;
     -moz-animation: dboxRainbow 30s ease infinite;
     -o-animation: dboxRainbow 30s ease infinite;
     animation: dboxRainbow 30s ease infinite;
-
     -webkit-font-smoothing: subpixel-antialiased;
   //
   }
