@@ -102,8 +102,7 @@ section.about {
 .img-profile {
   border: white 15px solid;
   border-radius: 50%;
-  height: 300px;
-  object-fit: fit;
+  height: 350px;
   transition: all .2s ease-in-out;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); }
 
