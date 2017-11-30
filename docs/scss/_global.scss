@@ -126,18 +126,19 @@ section {
   }
 }
 
-section.about {
-  background: transparent;
+#portfolio {
+  padding-top: 70px;
+}
+
+#about {
   color: white;
+  padding-top: 120px;
 }
 
 .container {
   background: transparent;
 }
-// section.success {
-//   color: white;
-//   background: $theme-success;
-// }
+
 @media(max-width:767px) {
   section {
     padding: 75px 0;

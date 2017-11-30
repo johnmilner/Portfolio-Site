@@ -115,9 +115,12 @@ section {
     font-size: 3em;
     margin: 0; }
 
-section.about {
-  background: transparent;
-  color: white; }
+#portfolio {
+  padding-top: 70px; }
+
+#about {
+  color: white;
+  padding-top: 120px; }
 
 .container {
   background: transparent; }
