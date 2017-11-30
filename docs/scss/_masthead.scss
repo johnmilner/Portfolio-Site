@@ -17,7 +17,6 @@ section.success {
             font-family: 'Work Sans', sans-serif;
             font-size: .5em;
             font-weight: 100;
-
             display: block;
             padding-top: 45px;
             text-transform: uppercase;
@@ -43,7 +42,7 @@ section.success {
     }
 }
 
-@media(min-width:414px) {
+@media(min-width:414px) and (max-width: 767px) {
   .img-profile {
         height: 30vh;
     }
@@ -61,7 +60,7 @@ section.success {
 }
 
 
-@media(min-width:320px) {
+@media(min-width:320px) and (max-width: 413px) {
     img {
       margin: -50px auto 20px;
     }
