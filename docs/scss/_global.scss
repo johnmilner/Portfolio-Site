@@ -10,6 +10,27 @@ body {
 
 }
 
+@-webkit-keyframes dboxRainbow {
+      0%{background-position:0% 50%}
+      50%{background-position:100% 50%}
+      100%{background-position:0% 50%}
+  }
+  @-moz-keyframes dboxRainbow {
+      0%{background-position:0% 50%}
+      50%{background-position:100% 50%}
+      100%{background-position:0% 50%}
+  }
+  @-o-keyframes dboxRainbow {
+      0%{background-position:0% 50%}
+      50%{background-position:100% 50%}
+      100%{background-position:0% 50%}
+  }
+  @keyframes dboxRainbow {
+      0%{background-position:0% 50%}
+      50%{background-position:100% 50%}
+      100%{background-position:0% 50%}
+  }
+
 #main {
      //
      margin-top: -50px;
@@ -149,7 +170,7 @@ section.about {
 .img-profile {
   border: white 15px solid;
   border-radius: 50%;
-  height: 350px;
+  height: 50vh;
   //object-fit: fit;
   transition: all .2s ease-in-out;
   box-shadow: 0px 0px 10px rgba(0,0,0,0.3);

@@ -10,6 +10,38 @@ body {
   padding-top: 50px;
   padding-bottom: 0; }
 
+@-webkit-keyframes dboxRainbow {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
+
+@-moz-keyframes dboxRainbow {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
+
+@-o-keyframes dboxRainbow {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
+
+@keyframes dboxRainbow {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
+
 #main {
   margin-top: -50px;
   font-family: "Courier New", monospaced;
@@ -116,7 +148,7 @@ section.about {
 .img-profile {
   border: white 15px solid;
   border-radius: 50%;
-  height: 350px;
+  height: 50vh;
   transition: all .2s ease-in-out;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); }
 
@@ -247,37 +279,15 @@ header.masthead, section.success {
     header.masthead .intro-text .skills {
       font-size: 1.75em; } }
 
-@-webkit-keyframes dboxRainbow {
-  0% {
-    background-position: 0% 50%; }
-  50% {
-    background-position: 100% 50%; }
-  100% {
-    background-position: 0% 50%; } }
-
-@-moz-keyframes dboxRainbow {
-  0% {
-    background-position: 0% 50%; }
-  50% {
-    background-position: 100% 50%; }
-  100% {
-    background-position: 0% 50%; } }
-
-@-o-keyframes dboxRainbow {
-  0% {
-    background-position: 0% 50%; }
-  50% {
-    background-position: 100% 50%; }
-  100% {
-    background-position: 0% 50%; } }
-
-@keyframes dboxRainbow {
-  0% {
-    background-position: 0% 50%; }
-  50% {
-    background-position: 100% 50%; }
-  100% {
-    background-position: 0% 50%; } }
+@media (min-width: 440px) {
+  .img-profile {
+    height: 50vh; }
+  header.masthead {
+    padding-top: 150px; }
+    header.masthead .intro-text .name {
+      font-size: 4.75em; }
+    header.masthead .intro-text .skills {
+      font-size: 1.75em; } }
 
 #portfolio .portfolio-item {
   right: 0;
@@ -539,3 +549,6 @@ form .row:first-child .floating-label-form-group {
 i.fa.fa-times {
   top: 0px;
   padding-top: 6px; }
+
+hr {
+  border-top: none; }
