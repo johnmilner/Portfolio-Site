@@ -149,11 +149,13 @@ section {
       outline: none; }
 
 .img-profile {
+  background: white;
   border: white 15px solid;
   border-radius: 50%;
   height: 50vh;
   transition: all .2s ease-in-out;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); }
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  -webkit-font-smoothing: subpixel-antialiased; }
 
 .img-profile:hover {
   transform: scale(1.1); }
@@ -254,23 +256,27 @@ footer {
     #mainNav.navbar-shrink .navbar-brand {
       font-size: 1.5em; } }
 
-header.masthead, section.success {
+header.masthead,
+section.success {
   padding-top: 5px;
   padding-bottom: -20px;
   text-align: center;
   color: white;
   background: transparent; }
-  header.masthead img, section.success img {
+  header.masthead img,
+  section.success img {
     display: block;
     margin: -90px auto 20px; }
-  header.masthead .intro-text .name, section.success .intro-text .name {
+  header.masthead .intro-text .name,
+  section.success .intro-text .name {
     font-family: 'Work Sans', sans-serif;
     font-size: .5em;
     font-weight: 100;
     display: block;
     padding-top: 45px;
     text-transform: uppercase; }
-  header.masthead .intro-text .skills, section.success .intro-text .skills {
+  header.masthead .intro-text .skills,
+  section.success .intro-text .skills {
     font-size: 1.25em;
     font-weight: 300; }
 
@@ -282,13 +288,26 @@ header.masthead, section.success {
     header.masthead .intro-text .skills {
       font-size: 1.75em; } }
 
-@media (max-width: 360px) {
+@media (min-width: 414px) {
   .img-profile {
     height: 30vh; }
   header.masthead {
-    padding-top: 150px; }
+    padding-top: 260px; }
     header.masthead .intro-text .name {
-      font-size: 1.75em; }
+      font-size: 2.75em; }
+    header.masthead .intro-text .skills {
+      font-size: 1.75em; } }
+
+@media (min-width: 320px) {
+  img {
+    margin: -50px auto 20px; }
+  .img-profile {
+    border: solid white 5px;
+    height: 30vh; }
+  header.masthead {
+    padding-top: 265px; }
+    header.masthead .intro-text .name {
+      font-size: 2.75em; }
     header.masthead .intro-text .skills {
       font-size: 1.75em; } }
 

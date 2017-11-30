@@ -1,61 +1,83 @@
 // Styling for the masthead
-header.masthead, section.success{
-  padding-top: 5px;
-  padding-bottom: -20px;
-  text-align: center;
-  color: white;
-  background: transparent;
+header.masthead,
+section.success {
+    padding-top: 5px;
+    padding-bottom: -20px;
+    text-align: center;
+    color: white;
+    background: transparent;
 
-  img {
-    display: block;
-    margin: -90px auto 20px;
-  }
-
-  .intro-text {
-    .name {
-      font-family: 'Work Sans', sans-serif;
-      font-size: .5em;
-      font-weight: 100;
-
-      display: block;
-      padding-top: 45px;
-      text-transform: uppercase;
-     }
-    .skills {
-      font-size: 1.25em;
-      font-weight: 300;
+    img {
+        display: block;
+        margin: -90px auto 20px;
     }
-  }
+
+    .intro-text {
+        .name {
+            font-family: 'Work Sans', sans-serif;
+            font-size: .5em;
+            font-weight: 100;
+
+            display: block;
+            padding-top: 45px;
+            text-transform: uppercase;
+        }
+        .skills {
+            font-size: 1.25em;
+            font-weight: 300;
+        }
+    }
 }
+
 @media(min-width:768px) {
-  header.masthead {
-    padding-top: 150px;
-    .intro-text {
-      .name {
-        font-size: 4.75em;
-      }
-      .skills {
-        font-size: 1.75em;
-      }
+    header.masthead {
+        padding-top: 150px;
+        .intro-text {
+            .name {
+                font-size: 4.75em;
+            }
+            .skills {
+                font-size: 1.75em;
+            }
+        }
     }
-  }
 }
 
-@media(max-width:360px) {
+@media(min-width:414px) {
   .img-profile {
-    height: 30vh;
-  }
-  header.masthead {
-    padding-top: 150px;
-    .intro-text {
-      .name {
-        font-size: 1.75em;
-      }
-      .skills {
-        font-size: 1.75em;
-      }
+        height: 30vh;
     }
-  }
+    header.masthead {
+        padding-top: 260px;
+        .intro-text {
+            .name {
+                font-size: 2.75em;
+            }
+            .skills {
+                font-size: 1.75em;
+            }
+        }
+    }
 }
 
 
+@media(min-width:320px) {
+    img {
+      margin: -50px auto 20px;
+    }
+    .img-profile {
+        border: solid white 5px;
+        height: 30vh;
+    }
+    header.masthead {
+        padding-top: 265px;
+        .intro-text {
+            .name {
+                font-size: 2.75em;
+            }
+            .skills {
+                font-size: 1.75em;
+            }
+        }
+    }
+}

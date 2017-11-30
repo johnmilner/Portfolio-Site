@@ -1,57 +1,58 @@
 // Bootstrap overrides for this template
 .btn-outline {
-  font-size: 20px;
-  margin-top: 15px;
-  transition: all 0.3s ease-in-out;
-  color: white;
-  border: solid 2px white;
-  background: transparent;
-  &.active,
-  &:active,
-  &:focus,
-  &:hover {
-    //color: rgb(36,36,34);
+    font-size: 20px;
+    margin-top: 15px;
+    transition: all 0.3s ease-in-out;
+    color: white;
     border: solid 2px white;
     background: transparent;
-  }
+    &.active,
+    &:active,
+    &:focus,
+    &:hover {
+        //color: rgb(36,36,34);
+        border: solid 2px white;
+        background: transparent;
+    }
 }
 
 .btn-primary {
-  font-weight: 700;
-  @include button-variant(white, $theme-primary, $theme-primary);
+    font-weight: 700;
+    @include button-variant(white, $theme-primary, $theme-primary);
 }
 
 .btn-success {
-  font-weight: 700;
-  @include button-variant(white, $theme-success, $theme-success);
+    font-weight: 700;
+    @include button-variant(white, $theme-success, $theme-success);
 }
 
 .btn-social {
-  font-size: 20px;
-  line-height: 45px;
-  display: inline-block;
-  width: 50px;
-  height: 50px;
-  text-align: center;
-  border: 2px solid white;
-  border-radius: 100%;
-  background: transparent;
+    font-size: 20px;
+    line-height: 45px;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 100%;
+    background: transparent;
 }
+
 .btn.active,
 .btn:active,
 .btn:focus {
-  outline: none;
+    outline: none;
 }
 
 .img-fluid {
-  border-radius: 5px;
+    border-radius: 5px;
 }
 
 i.fa.fa-times {
-  top: 0px;
-  padding-top: 6px;
+    top: 0px;
+    padding-top: 6px;
 }
 
 hr {
-  border-top: none;
+    border-top: none;
 }
