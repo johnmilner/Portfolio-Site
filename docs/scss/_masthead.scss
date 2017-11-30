@@ -58,15 +58,15 @@ header.masthead, section.success{
   }
 }
 
-@media(min-width:180px) {
+@media(max-width:360px) {
   .img-profile {
-    height: 50vh;
+    height: 30vh;
   }
   header.masthead {
     padding-top: 150px;
     .intro-text {
       .name {
-        font-size: 4.75em;
+        font-size: 1.75em;
       }
       .skills {
         font-size: 1.75em;
