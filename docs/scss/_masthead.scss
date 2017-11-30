@@ -41,23 +41,6 @@ header.masthead, section.success{
   }
 }
 
-@media(min-width:440px) {
-  .img-profile {
-    height: 50vh;
-  }
-  header.masthead {
-    padding-top: 150px;
-    .intro-text {
-      .name {
-        font-size: 2.75em;
-      }
-      .skills {
-        font-size: 1.75em;
-      }
-    }
-  }
-}
-
 @media(max-width:360px) {
   .img-profile {
     height: 30vh;
