@@ -332,7 +332,7 @@ section.success {
       transition: transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275); }
       #portfolio .portfolio-item .portfolio-link .caption:hover {
         opacity: 1;
-        transform: translateY(-12px); }
+        transform: translateY(-20px); }
       #portfolio .portfolio-item .portfolio-link .caption .caption-content {
         font-size: 20px;
         position: absolute;
