@@ -61,7 +61,7 @@ p.small {
   font-size: 16px; }
 
 a {
-  transition: all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
   color: #48cfad; }
 
 a.active,
@@ -329,7 +329,7 @@ section.success {
       border-radius: 5px;
       opacity: 0;
       background: transparent;
-      transition: transform 0.7s ease; }
+      transition: transform 0.5s ease-in-out; }
       #portfolio .portfolio-item .portfolio-link .caption:hover {
         opacity: 1;
         transform: translateY(-12px); }
