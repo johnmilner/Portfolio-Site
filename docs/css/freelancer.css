@@ -326,14 +326,13 @@ section.success {
       position: absolute;
       width: 100%;
       height: 100%;
-      -webkit-transition: all ease 0.5s;
-      -moz-transition: all ease 0.5s;
-      transition: all ease 0.5s;
       border-radius: 5px;
       opacity: 0;
-      background: transparent; }
+      background: transparent;
+      transition: transform 0.7s ease; }
       #portfolio .portfolio-item .portfolio-link .caption:hover {
-        opacity: 1; }
+        opacity: 1;
+        transform: translateY(-12px); }
       #portfolio .portfolio-item .portfolio-link .caption .caption-content {
         font-size: 20px;
         position: absolute;
@@ -343,8 +342,6 @@ section.success {
         margin-top: -12px;
         text-align: center;
         color: white; }
-        #portfolio .portfolio-item .portfolio-link .caption .caption-content i {
-          margin-top: -12px; }
         #portfolio .portfolio-item .portfolio-link .caption .caption-content h3,
         #portfolio .portfolio-item .portfolio-link .caption .caption-content h4 {
           margin: 0; }
