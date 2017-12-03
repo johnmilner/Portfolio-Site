@@ -166,6 +166,9 @@ section {
   left: 0;
   margin-right: 10px; }
 
+.fa.fa-star-o {
+  color: white; }
+
 i {
   position: relative;
   top: 2px;
@@ -329,9 +332,11 @@ section.success {
       border-radius: 5px;
       opacity: 0;
       background: transparent;
-      transition: transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275); }
+      -webkit-transition: all 0.5s cubic-bezier(0.55, 0, 0.1, 1);
+      transition: all 0.5s cubic-bezier(0.55, 0, 0.1, 1); }
       #portfolio .portfolio-item .portfolio-link .caption:hover {
         opacity: 1;
+        -webkit-transform: translateY(-20px);
         transform: translateY(-20px); }
       #portfolio .portfolio-item .portfolio-link .caption .caption-content {
         font-size: 20px;
